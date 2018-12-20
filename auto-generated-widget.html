@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 
+
 <head>
     <meta http-equiv="content-type" content="text/html; charset=UTF-8">
 
@@ -33,6 +34,7 @@
     margin:0;
     padding:0;
 }
+
 #com-chilipeppr-widget-cam .cam-line-horiz {
     border-top: 1px solid red;
     top:50%;
@@ -40,6 +42,7 @@
     right:0;
     position:absolute;
 }
+
 #com-chilipeppr-widget-cam .cam-line-vert {
     border-left: 1px solid red;
     top:0;
@@ -47,9 +50,11 @@
     bottom:0;
     position:absolute;
 }
+
 #com-chilipeppr-widget-cam .well {
     margin-bottom:0;
 }
+
 #com-chilipeppr-widget-cam .terminal {
     background-color:#000000;
     margin-top:14px;
@@ -58,14 +63,13 @@
     max-height:80px;
 }
 
-
-
 #com-chilipeppr-widget-cam .overlayWrapper {
   position: relative;
   margin: 0;
   overflow: hidden;
   width: 100%;
 }
+
 #com-chilipeppr-widget-cam .overlayWrapper img {
   max-width: 100%;
   
@@ -73,6 +77,7 @@
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
 }
+
 #com-chilipeppr-widget-cam .overlayWrapper:hover img {
   -moz-transform: scale(4);
   -webkit-transform: scale(4);
@@ -181,10 +186,10 @@ cpdefine("inline:com-chilipeppr-widget-cam", ["chilipeppr_ready", /* other depen
         id: "com-chilipeppr-widget-cam", // Make the id the same as the cpdefine id
         name: "Widget / Cam", // The descriptive name of your widget.
         desc: "This widget loads a webcam view in ChiliPeppr via WebRTC.", // A description of what your widget does
-        url: "http://raw.githubusercontent.com/xpix/widget-cam/master/auto-generated-widget.html",       // The final URL of the working widget as a single HTML file with CSS and Javascript inlined. You can let runme.js auto fill this if you are using Cloud9.
-        fiddleurl: "http://ide.c9.io/xpix/widget-cam", // The edit URL. This can be auto-filled by runme.js in Cloud9 if you'd like, or just define it on your own to help people know where they can edit/fork your widget
-        githuburl: "http://github.com/xpix/widget-cam", // The backing github repo
-        testurl: "http://widget-cam-xpix.c9users.io/widget.html",   // The standalone working widget so can view it working by itself
+        url: "http://raw.githubusercontent.com/jhapke/widget-cam/master/auto-generated-widget.html",       // The final URL of the working widget as a single HTML file with CSS and Javascript inlined. You can let runme.js auto fill this if you are using Cloud9.
+        fiddleurl: "http://ide.c9.io/electricgearnuts/widget-cam", // The edit URL. This can be auto-filled by runme.js in Cloud9 if you'd like, or just define it on your own to help people know where they can edit/fork your widget
+        githuburl: "http://github.com/jhapke/widget-cam", // The backing github repo
+        testurl: "http://widget-cam-electricgearnuts.c9users.io/widget.html",   // The standalone working widget so can view it working by itself
         /**
          * Define pubsub signals below. These are basically ChiliPeppr's event system.
          * ChiliPeppr uses amplify.js's pubsub system so please refer to docs at
